@@ -39,11 +39,11 @@ export class Detail extends Component{
         return (
             <div>
                 <ButtonBackToHome/>
-                <h1>{Title}</h1>
+                <h1 className='subtitle'>{Title}</h1>
                 <img src={Poster} alt=""/>
-                <h3>{Actors}</h3>
-                <span>{Metascore}</span>
-                <p>{Plot}</p>
+                <h3>Actors: {Actors}</h3>
+                <span>Score: {Metascore}</span>
+                <p>Description: {Plot}</p>
             </div>
             
         )

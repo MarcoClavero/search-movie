@@ -9,6 +9,7 @@ export class ButtonBackToHome extends Component {
                 className='button is-info'
                 to='/'>
                 Back to Home
+                
             </Link>
         )
     }
